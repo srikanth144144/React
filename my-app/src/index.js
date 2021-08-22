@@ -1,6 +1,13 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
+import React from "react";
+import ReactDOM from "react-dom";
 
+const App = () => {
+  return (
+    <div>
+      <App />
+    </div>
+  );
+};
 // function buttext() {
 //   return "click on me!";
 // }
@@ -31,4 +38,4 @@
 //   var a = 10;
 // }
 
-// ReactDOM.render(<App1 />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));
