@@ -1,13 +1,14 @@
 import React, { PureComponent } from "react";
 import ReactDOM, { render } from "react-dom";
-import Clickcounter from "./component/Clickcounter";
-import FocusInput from "./component/FocusInput";
-import Fragements from "./component/Fragements";
-import Hovercounter from "./component/Hovercounter";
-import Input from "./component/Input";
-import Parentcomp from "./component/Parentcomp";
-import Purecomp from "./component/Purecomp";
-import RefsDemo from "./component/RefsDemo";
+import AddtoCart from "./component/AddtoCart";
+// import Clickcounter from "./component/Clickcounter";
+// import FocusInput from "./component/FocusInput";
+// import Fragements from "./component/Fragements";
+// import Hovercounter from "./component/Hovercounter";
+// import Input from "./component/Input";
+// import Parentcomp from "./component/Parentcomp";
+// import Purecomp from "./component/Purecomp";
+// import RefsDemo from "./component/RefsDemo";
 // import Greet from "./component/Greet";
 // import Welcome from "./component/welcome";
 // import Message from "./component/Message";
@@ -26,7 +27,8 @@ import RefsDemo from "./component/RefsDemo";
 const App = () => {
   return (
     <div className="App">
-      <Hovercounter />
+      <AddtoCart />
+      {/* <Hovercounter /> */}
       {/* <Clickcounter /> */}
       {/* <FocusInput /> */}
       {/* <Input /> */}
