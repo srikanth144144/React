@@ -114,3 +114,103 @@
 // fun();
 // console.log(5 < 6 < 7);
 // console.log(7 > 6 > 5);
+
+// const a = "welcome to bangalore";
+// const b = a.split(" ").reverse().join(" ");
+// const c = b.split("").reverse().join("");
+// console.log(c);
+
+// const a = "heart";
+// const b = "earth";
+// const c = a.split("").sort().join("");
+// const d = b.split("").sort().join("");
+// if (c === d) {
+//   console.log("anagram ");
+// } else {
+//   console.log(" not anagram");
+// }
+// const a = [1, 2, 3, 7, 1, 3, 6, 8, 2, 1, 3];
+// const b = new Set(a);
+// console.log(b);
+
+// const a = [1, 2, 3, 4];
+// const b = [5, 6, 7, 8, 9];
+// const c = [...a, ...b];
+// console.log(c);
+// let a = [1, 2, 21, 11, 111, 12, 3, 13];
+// console.log(
+//   a.sort((a, b) => {
+//     return a - b;
+//   })
+// );
+
+// let x = [1, 2, 3, undefined, "xyz"];
+// let c = x.filter((n) => typeof n === "number");
+// console.log(c);
+// const a = [1, 2, 3, 4, 2, 5, 2, 3, 4, 5];
+// const b = new Set(a);
+// console.log(b);
+
+// const a = "Hai all of you";
+// const b = a.split(" ").reverse().join(" ").split("").reverse().join("");
+// console.log(b);
+
+// const hari = {
+//   a: 1,
+//   b: 2,
+//   c: 3,
+//   d: 5,
+// };
+// console.log(Object.entries(hari).length);
+// const a = [1, 2, 3, 4, 5, 6, 7, 8];
+// const b = a.slice(4);
+// console.log(b);
+// console.log(a);
+
+// const a = [1, 2, 3, 4, 5, 6, 7, 8];
+// const b = a.splice(4, 2, 10, 11, 12);
+// console.log(b);
+// console.log(a);
+
+// const a = [
+//   "sunday",
+//   "monday",
+//   "tuesday",
+//   "wensday",
+//   "thursday",
+//   "sunday",
+//   " wensday",
+// ];
+// const b = a.splice(5, 2, "friday", "saturday");
+// console.log(b);
+// console.log(a);
+// const element = document.getElementById("one");
+// console.log(element);
+
+// let str = "Hai Hari ";
+// let str1 = str.split("").reverse().join("");
+// console.log(str1);
+// const a = 25;
+// const b = function () {
+//   console.log(a);
+// };
+// b();
+// var x;
+// console.log(x);
+// var a = 20;
+// {
+//   let a = 50;
+// }
+// console.log(a);
+
+function x() {
+  for (var i = 0; i <= 5; i++) {
+    function close(i) {
+      setTimeout(function () {
+        console.log(i);
+      }, i * 1000);
+    }
+    close(i);
+  }
+}
+x();

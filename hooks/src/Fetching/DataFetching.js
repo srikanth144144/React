@@ -26,13 +26,13 @@ function DataFetching() {
       <div>{post.username}</div>
       <div>{post.email}</div>
       <div>{post.website}</div>
-      {/* <ul>
+      <ul>
         {post.map((post) => (
           <li key={post.id}>
             {post.name}+{post.email}
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 }

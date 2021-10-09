@@ -14,6 +14,7 @@ const App = ({ local_varable, IncAction, DecAction }) => {
     </div>
   );
 };
+
 const mapStateToProps = (state) => ({
   local_varable: state,
 });
